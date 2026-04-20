@@ -1,0 +1,38 @@
+.ayuda {
+    padding: 0px var(--responsive-padding) 60px;
+}
+
+.ayuda > div {
+    max-width: var(--section-inner-grid-width);
+}
+
+.ayuda > div > div {
+    display: flex;
+
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.ayuda > div > div:first-of-type {
+    font-weight: 700;
+    border-bottom: 2px solid var(--color-main-yellow);
+    margin-top: 20px;
+}
+
+.ayuda > div > div:not(div:first-of-type) {
+    border-bottom: 1px solid var(--color-grey-20);
+}
+
+.ayuda > div > div > span {
+    width: 100%;
+    padding: 5px 5px 5px 0px;
+}
+
+.ayuda > div > div > span:first-of-type {
+    width: calc(100% - 120px);
+}
+
+.ayuda > div > div > span:nth-of-type(2) {
+    text-align: right;
+    width: 120px;
+}
